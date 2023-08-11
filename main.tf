@@ -1,5 +1,5 @@
 # Creating a S3 bucket
-resource "aws_s3_bucket" "big_box_bucket01" {
+resource "aws_s3_bucket" "myNewS3Bucket" {
     bucket = "bigbox"
 
     tags = {
